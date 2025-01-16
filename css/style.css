@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+ul{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+nav{
+    text-align: center;
+    line-height: 2;
+}
+
+nav ul li a{
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 1.2em;
+    transition-duration: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #0091ff;
+}
+
+.glavnoe{
+    background-color: #baeff7;
+
+}
+
+.glavnoe h2{
+    text-align: center;
+}
+
+/* Кнопка  */
+button{
+    margin-left: 27%;
+}
+
+.Button{
+    width: 220px;
+    border: 1px solid #e0f7fa;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#button-nav{
+    background-color: #6495ed;
+    color: white;
+    border: 1px solid #e0f7fa;
+    font-size: 1em;
+}
+
+#button-nav:hover{
+    background-color: #42aaff;
+}
+
+/* Кнопка  */
+
+/* Москва */
+
+.Moscow{
+    display: flex;
+    flex-direction: row;
+}
+
+.Place_Moscow{
+    margin: 1cm;
+    margin-right: 0;
+    border-radius: 15px;
+    flex: 1; /* Равная ширина с текстом */
+    object-fit: cover; /* Обрезает картинку, чтобы сохранить пропорции */
+    width: 55%;
+    height: auto; /* Сохраняет адаптивность картинки */
+}
+
+.choose_us_Moscow{
+    margin: 1cm;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: #01579b;
+    color: white;
+    border-radius: 15px ;
+    font-size: 1.2vw;
+}
+/* Москва */
+
+
+/* Санкт-петербург */
+
+.St_Petersburg{
+    display: flex;
+    flex-direction: row;
+}
+
+.Place_St_Petersburg{
+    margin: 1cm;
+    margin-left: 0;
+    border-radius: 15px;
+    flex: 1; /* Равная ширина с текстом */
+    object-fit: cover; /* Обрезает картинку, чтобы сохранить пропорции */
+    width: 55%;
+    height: auto; /* Сохраняет адаптивность картинки */
+}
+
+.choose_us_St_Petersburg{
+    margin: 1cm;
+    padding: 10px;
+    padding-bottom: 15px;
+    background-color: #01579b;
+    color: white;
+    border-radius: 15px ;
+    font-size: 1.2vw;
+}
+/* Санкт-петербург */
+
+/* Байкал */
+
+.Baikal{
+    display: flex;
+    flex-direction: row;
+}
+
+.Place_Baikal{
+    margin: 1cm;
+    margin-right: 0;
+    border-radius: 15px;
+    flex: 1; /* Равная ширина с текстом */
+    object-fit: cover; /* Обрезает картинку, чтобы сохранить пропорции */
+    width: 55%;
+    height: auto; /* Сохраняет адаптивность картинки */
+}
+
+.choose_us_Baikal{
+    margin: 1cm;
+    padding: 10px;
+    padding-bottom: 15px;
+    background-color: #01579b;
+    color: white;
+    border-radius: 15px ;
+    font-size: 1.2vw;
+}
+/* Байкал */
+
+/* Сочи  */
+
+.Sochi{
+    display: flex;
+    flex-direction: row;
+}
+
+.Place_Sochi{
+    margin: 1cm;
+    margin-left: 0;
+    border-radius: 15px;
+    flex: 1; /* Равная ширина с текстом */
+    object-fit: cover; /* Обрезает картинку, чтобы сохранить пропорции */
+    width: 55%;
+    height: auto; /* Сохраняет адаптивность картинки */
+}
+
+.choose_us_Sochi{
+    margin: 1cm;
+    padding: 10px;
+    padding-bottom: 15px;
+    background-color: #01579b;
+    color: white;
+    border-radius: 15px ;
+    font-size: 1.2vw;
+}
+/* Сочи */
+
+/* Камчатка */
+
+.Kamchatka{
+    display: flex;
+    flex-direction: row;
+}
+
+.Place_Kamchatka{
+    margin: 1cm;
+    margin-right: 0;
+    border-radius: 15px;
+    flex: 1; /* Равная ширина с текстом */
+    object-fit: cover; /* Обрезает картинку, чтобы сохранить пропорции */
+    width: 55%;
+    height: auto; /* Сохраняет адаптивность картинки */
+}
+
+.choose_us_Kamchatka{
+    margin: 1cm;
+    padding: 10px;
+    padding-bottom: 15px;
+    background-color: #01579b;
+    color: white;
+    border-radius: 15px ;
+    font-size: 1.2vw;
+}
+
+/* Камчатка */
+
+
+/* Горный Алтай */
+
+.Mountain_Altai{
+    display: flex;
+    flex-direction: row;
+}
+
+.Place_Mountain_Altai{
+    margin: 1cm;
+    margin-left: 0;
+    border-radius: 15px;
+    flex: 1; /* Равная ширина с текстом */
+    object-fit: cover; /* Обрезает картинку, чтобы сохранить пропорции */
+    width: 55%;
+    height: auto; /* Сохраняет адаптивность картинки */
+}
+
+.choose_us_Mountain_Altai{
+    margin: 1cm;
+    padding: 10px;
+    padding-bottom: 15px;
+    background-color: #01579b;
+    color: white;
+    border-radius: 15px ;
+    font-size: 1.2vw;
+}
+
+/* Горный Алтай */
+
+
+
+/* Контейнер для столбиков */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет столбикам переноситься на новую строку */
+    gap: 20px; /* Отступы между столбиками */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Столбики */
+  .column {
+    flex: 1; /* Все столбики равной ширины */
+    min-width: 200px; /* Минимальная ширина столбика */
+    max-width: 33%; /* Максимальная ширина */
+    background-color: #01579b;
+    border: 1px solid #ddd;
+    border-radius: 12px; /* Увеличенный радиус скругления */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Более заметная тень */
+    text-align: center;
+    padding: 30px; /* Увеличенный отступ */
+    box-sizing: border-box;
+    font-size: 20px; /* Увеличенный размер шрифта */
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    transition: transform 0.3s, box-shadow 0.3s; /* Плавный эффект при наведении */
+}
+
+
+.tours {
+    width: 100%;
+    height: 50vw;
+    background-color: #2508c5;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+}
+
+
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 250px;
+    height: 35px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-tours {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btn-tours:hover{
+    color: #00ff7b;
+}
+
+.btn-sochi{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    background-color: #0095B6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btn-baikal{
+   width: 150px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    background-color: #0095B6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s; 
+}
+
+.btn-peter{
+   width: 150px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    background-color: #0095B6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s; 
+}
+
+.btn-altai{
+   width: 150px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    background-color: #0095B6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s; 
+}
+
+.btn-moscow{
+   width: 150px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    background-color: #0095B6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s; 
+}
+
+.btn-kamchatka{
+   width: 150px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    background-color: #0095B6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;     
+}
+
+
+.btn-altai .btn-baikal .btn-kamchatka .btn-moscow .btn-sochi .btn-peter:hover{
+    color: #00ff7b;
+}
+
+
+.about {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #01579b; 
+    color: #fff; /* Белый цвет текста по умолчанию */
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff; /* Белый заголовок */
+}
+
+.about-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #e0e0e0; /* Светло-серый для описания */
+    margin-bottom: 30px;
+}
+
+.about-advantages {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.advantage {
+    width: calc(50% - 15px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #003366; /* Более светлый оттенок синего для карточек*/
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Усиленная тень для контраста */
+      display: flex;
+     align-items: center;
+     gap: 15px;
+}
+
+.advantage-icon {
+    font-size: 30px;
+    color: #fff; /* Белый цвет иконки*/
+}
+
+.advantage-title {
+    font-size: 1.3rem;
+    color: #fff; /* Белый заголовок */
+    margin-bottom: 5px;
+}
+
+.advantage-description {
+    font-size: 1rem;
+    color: #e0e0e0; /* Светло-серый для описания */
+    margin: 0px;
+}
+
+.about-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image {
+    max-width: 500px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Усиленная тень для контраста */
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    height: 100px;
+    background-color: yellow;
+
+}
+.footer_copyright{
+    text-decoration: underline;
+}

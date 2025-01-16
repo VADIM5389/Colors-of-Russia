@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Краски России</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../media/logo.png" alt="Лого" width="150px">
+        <h1>Краски России</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Интересные места</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="../about us/about.html">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="tours">
+        <br>
+        <h2>Информация о выбранном туре:</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form>
+            <label>Введите Фио</label>
+            <br>
+            <input type="text" required>
+            <br>
+            <label>Введите Телефон</label>
+            <br>
+            <input type="tel" required>
+            <br>
+        
+            <label>Введите Email</label>
+            <br>
+            <input type="email" required>
+            <br>
+            <p id="tour-name">Не выбран</p>
+            <br>
+            <p id="tour-price">Цена: 0 рублей</p>
+            <br>
+            <button class="btn-tours">оформить</button>
+            </form>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer_left">
+            <h3>Контактная информация:</h3>
+        </div>
+        <div class="footer_center">
+            <span class="footer_copyright">
+                &copy; 2025 Туры по России. Все права защищены.
+            </span>
+        </div>
+        <div class="footer_right">
+            <span class="footer_contact">
+                <p>Телефон:+7(3522)89-54-21</p>
+                <p>Email:<b>contact@kraskirossii.ru</b></p>
+                <p>Адрес:Г.Курган, ул Гайдара, д9</p>
+            </span>
+        </div>
+    </footer>
+
+    <script>
+        // Получаем данные из localStorage
+        const tourName = localStorage.getItem('tourName');
+        const tourPrice = localStorage.getItem('tourPrice');
+
+        // Проверяем, если данные есть, отображаем их на странице
+        if (tourName && tourPrice) {
+            document.getElementById('tour-name').innerText = "Тур: " + tourName;
+            document.getElementById('tour-price').innerText = "Цена: " + tourPrice + " рублей";
+        } else {
+            // Если данных нет, показываем сообщение об ошибке
+            document.getElementById('tour-name').innerText = "Ошибка: не выбран тур!";
+        }
+    </script>
+</body>
+</html>
